@@ -32,10 +32,6 @@ function App() {
           <a className="navbar-brand" href="#">
             Polibras
           </a>
-            {/* <span>
-              <i className="fa-sharp fa-solid fa-bag-shopping"></i>
-              {amountCart}
-            </span> */}
 
         </div>
       </nav>
