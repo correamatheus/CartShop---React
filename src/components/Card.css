@@ -1,0 +1,39 @@
+.card-container {
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 200px;
+    margin-bottom: 3rem;
+    height: 200px;
+    gap: .20rem;
+}
+
+.card-img{
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-weight: 700;    
+}
+
+.card-button {
+    border: 2px solid #dadada;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.card-price {
+    color: #7aa8a9;
+    font-weight: 900;
+}
+
+@media  screen and (max-width: 485px){
+    .divContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
